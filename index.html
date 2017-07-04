@@ -7,34 +7,102 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>PINK. Взгляните на жизнь иначе!</title>
 </head>
-<!--Header-->
-<header class="page-header">
-
-  <a class="page-header__logo" href="index.html"><img src="img/logo.svg" width="75px" height="22px" alt="логотип"></a>
-  <nav class="main-nav">
-    <button class="main-nav__toggle" type="button" name="button">Открыть меню</button>
-    <ul class="main-nav__list">
-      <li class="main-nav__items"><a href="">Главная</a></li>
-      <li class="main-nav__items"><a href="">Фотографии</a></li>
-      <li class="main-nav__items"><a href="">Конкурс</a></li>
-      <li class="main-nav__items"><a href="">Html Academy</a></li>
-    </ul>
-  </nav>
-</header>
-
-<section class="application">
-  <a class="btn application__btn" href="">Скачать приложение</a>
-  <div class="application__img">
-    <img src="img/apple-logo.svg" width="47px" height="56px" alt="Apple">
-    <img src="img/android-logo.svg" width="43px" height="47px" alt="Android">
-    <img src="img/microsoft-logo.svg" width="44px" height="41px" alt="Microsoft">
-  </div>
-  <p class="application__about">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
-
-</section>
 
 <body>
+  <!--Header-->
+  <header class="page-header">
+    <a class="page-header__logo" href="index.html"><img src="img/logo.svg" width="75px" height="22px" alt="логотип"></a>
+    <nav class="main-nav">
+      <button class="main-nav__toggle" type="button" name="button">Открыть меню</button>
+      <ul class="main-nav__list">
+        <li class="main-nav__items"><a href="">Главная</a></li>
+        <li class="main-nav__items"><a href="">Фотографии</a></li>
+        <li class="main-nav__items"><a href="">Конкурс</a></li>
+        <li class="main-nav__items"><a href="">Html Academy</a></li>
+      </ul>
+    </nav>
+  </header>
 
+  <!--Application-->
+  <section class="application">
+    <a class="btn application__btn" href="">Скачать приложение</a>
+    <div class="application__img">
+      <img src="img/apple-logo.svg" width="47px" height="56px" alt="Apple">
+      <img src="img/android-logo.svg" width="43px" height="47px" alt="Android">
+      <img src="img/microsoft-logo.svg" width="44px" height="41px" alt="Microsoft">
+    </div>
+    <p class="application__about">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
+  </section>
+
+  <!--Intro-->
+  <section class="intro">
+    <p class="intro__question">Устали от серости мегаполиса?</p>
+    <p class="intro__answer">Нам есть, что вам предложить!</p>
+  </section>
+
+  <!--Description-->
+  <section class="description">
+    <b class="description__slogan">Поднимает настроение</b>
+    <p class="description__text">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
+    <b class="description__slogan">Меняет мир вокруг</b>
+    <p class="description__text">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
+    <b class="description__slogan">Заводит новых друзей</b>
+    <p class="description__text">Ставьте лайки, комментируте, делитесь фотографиями с друзьями и заводите новых</p>
+    <img src="img/pink-app.svg" width="157px" height="320px" alt="Pink App">
+  </section>
+
+  <!--Reviews-->
+  <blockquote class="reviews" cite="http://">
+    <b class="reviews__author">Николай Петров</b>
+    <p class="reviews__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
+  </blockquote>
+
+  <!--Price-->
+  <section class="price">
+    <table class="table">
+      <tr>
+        <th class="tg-yw4l"></th>
+        <th class="table__rate">Стандарт</th>
+        <th class="tg-yw4l">ав</th>
+        <th class="tg-yw4l">вав</th>
+      </tr>
+      <tr>
+        <td class="tg-yw4l">1</td>
+        <td class="tg-yw4l">Розовый фильтр</td>
+        <td class="tg-yw4l">ава</td>
+        <td class="tg-yw4l">ва</td>
+      </tr>
+      <tr>
+        <td class="tg-yw4l">2</td>
+        <td class="tg-yw4l">Смайлики</td>
+        <td class="tg-yw4l">ва</td>
+        <td class="tg-yw4l">вав</td>
+      </tr>
+      <tr>
+        <td class="tg-yw4l">3</td>
+        <td class="tg-yw4l">Комментарии</td>
+        <td class="tg-yw4l">вав</td>
+        <td class="tg-yw4l">ва</td>
+      </tr>
+    </table>
+  </section>
+
+  <!--Footer-->
+  <footer class="page-footer">
+    <div class="contacts">
+      <p class="contacts__question">Остались вопросы? Свяжитесь с нами!</p>
+      <b class="contacts__act">Звоните:</b>
+      <a class="contacts__text" href="tel:+78125556666">+7 (812) 555-66-66</a>
+      <b class="contacts__act">Пишите:</b>
+      <a class="contacts__text" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+      <b class="contacts__act">Приезжайте в гости:</b>
+      <p class="contacts__text">ул. Большая Конюшенная, 19/8</p>
+    </div>
+    <div class="map-ya">
+      <img src="yandex.jpq" alt="">
+    </div>
+
+  </footer>
 </body>
 
 </html>
